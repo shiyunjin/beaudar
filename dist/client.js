@@ -20,4 +20,4 @@
     }
   </style>`);const m=i.src.match(/^https:\/\/comment\.shiyunjin\.com|http:\/\/localhost:\d+/)[0],h=`${m}/beaudar.html`;i.insertAdjacentHTML("afterend",`<div class="beaudar">
     <iframe class="beaudar-frame" title="Comments" scrolling="no" src="${h}?${new URLSearchParams(e)}" loading="lazy"></iframe>
-  </div>`);const u=i.nextElementSibling;i.parentElement.removeChild(i),addEventListener("message",a=>{if(a.origin!==m)return;const r=a.data;r&&r.type==="resize"&&r.height&&(u.style.height=`${r.height}px`)})});
+  </div>`);const u=i.nextElementSibling;i.parentElement.removeChild(i),addEventListener("message",a=>{if(a.origin!==m)return;const r=a.data;r&&r.type==="resize"&&r.height&&(u.style.height=`${r.height+200}px`)})});
