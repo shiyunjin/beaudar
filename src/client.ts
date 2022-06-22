@@ -104,6 +104,6 @@ addEventListener('message', (event) => {
   }
   const data = event.data as ResizeMessage;
   if (data && data.type === 'resize' && data.height) {
-    container.style.height = `${data.height}px`;
+    container.style.height = `${data.height+200}px`;
   }
 });
