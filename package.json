@@ -10,7 +10,7 @@
     "comments",
     "blog"
   ],
-  "homepage": "https://beaudar.lipk.org",
+  "homepage": "https://comment.shiyunjin.com",
   "bugs": "https://github.com/beaudar/beaudar/issues",
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
     "build-html": "vite build --config vite.build-html.config.js",
     "build-script": "vite build --config vite.build-script.config.js",
     "lint": "eslint -c .eslintrc.js --ext .ts",
-    "predeploy": "yarn run build && echo beaudar.lipk.org > dist/CNAME",
+    "predeploy": "yarn run build && echo comment.shiyunjin.com > dist/CNAME",
     "deploy": "gh-pages --dist dist"
   },
   "engines": {

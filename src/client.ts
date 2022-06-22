@@ -14,7 +14,7 @@ let script = document.currentScript as HTMLScriptElement;
 if (!script) {
   // Internet Explorer :(
   script = document.querySelector(
-    'script[src^="https://beaudar.lipk.org/client.js"],script[src^="http://localhost:3000/client.ts"]',
+    'script[src^="https://comment.shiyunjin.com/client.js"],script[src^="http://localhost:3000/client.ts"]',
   ) as HTMLScriptElement;
 }
 

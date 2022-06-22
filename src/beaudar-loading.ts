@@ -12,7 +12,7 @@ export const addLoadingStatus = (page: { loading: string }) => {
     beaudarBox.id = 'beaudar-box';
 
     beaudarBox.innerHTML = `
-      <a href="https://beaudar.lipk.org" target="_blank">
+      <a href="https://comment.shiyunjin.com" target="_blank">
         <div style="position: relative; margin: auto; background-color: rgb(225, 228, 233); border-radius: 50px; width: 100px; height: 100px;">
           <img
             width="50px"
