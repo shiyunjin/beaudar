@@ -1,5 +1,4 @@
 .parcel-cache
 chrome
-dist
 node_modules
 yarn-error.log
